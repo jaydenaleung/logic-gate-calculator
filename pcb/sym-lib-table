@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Adders")(type "KiCad")(uri "${KIPRJMOD}/symbols/Adders.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC04N")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74HC04N.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC42N")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74HC42N.kicad_sym")(options "")(descr ""))
+  (lib (name "CD74HC283E")(type "KiCad")(uri "${KIPRJMOD}/symbols/CD74HC283E.kicad_sym")(options "")(descr ""))
+  (lib (name "CD74HC147E")(type "KiCad")(uri "${KIPRJMOD}/symbols/CD74HC147E.kicad_sym")(options "")(descr ""))
+  (lib (name "L7805CV")(type "KiCad")(uri "${KIPRJMOD}/symbols/L7805CV.kicad_sym")(options "")(descr ""))
+)
