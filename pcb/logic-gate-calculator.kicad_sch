@@ -7824,6 +7824,12 @@
 		(uuid "120502f2-e8a2-434a-b661-6ea1ab4ecb4e")
 	)
 	(junction
+		(at 215.9 378.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "157de385-8118-4488-acdf-f4cec2013b56")
+	)
+	(junction
 		(at 167.64 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8532,12 +8538,6 @@
 		(uuid "efc5bdb1-e455-463f-a9f0-037b671fb783")
 	)
 	(junction
-		(at 215.9 378.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f288b832-861a-4b9a-8144-f7ed23ba4546")
-	)
-	(junction
 		(at 120.65 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8548,6 +8548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3f9c263-cf5c-40a6-8747-4aa0ad8eb0dd")
+	)
+	(junction
+		(at 215.9 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ed95df-6340-450c-a87d-c54f22af6093")
 	)
 	(junction
 		(at 547.37 105.41)
@@ -8911,6 +8917,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 378.46) (xy 215.9 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a430c9-465a-46df-be47-94d2a6d31d4f")
+	)
+	(wire
+		(pts
 			(xy 414.02 119.38) (xy 421.64 119.38)
 		)
 		(stroke
@@ -9098,6 +9114,16 @@
 			(type default)
 		)
 		(uuid "1cef6598-05fa-4838-93ba-3f69fa31292d")
+	)
+	(wire
+		(pts
+			(xy 215.9 382.27) (xy 215.9 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc84e0e-f478-4064-b8ae-c1b2af8da6ad")
 	)
 	(wire
 		(pts
@@ -11421,6 +11447,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 378.46) (xy 231.14 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94defb60-1416-4f9e-a52e-edd71c87f3d3")
+	)
+	(wire
+		(pts
 			(xy 511.81 62.23) (xy 511.81 67.31)
 		)
 		(stroke
@@ -13028,16 +13064,6 @@
 			(type default)
 		)
 		(uuid "eee6c8c6-9628-4c17-9def-e62f18e96c8c")
-	)
-	(wire
-		(pts
-			(xy 215.9 378.46) (xy 231.14 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd7b5ed-4bd2-44f0-8f34-3772af29e0ca")
 	)
 	(wire
 		(pts
@@ -24866,7 +24892,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 382.27 180)
+		(at 212.09 382.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24874,7 +24900,7 @@
 		(dnp no)
 		(uuid "3cb7c964-5b7e-4834-a13b-abbf7e43ff60")
 		(property "Reference" "C9"
-			(at 207.01 381.254 0)
+			(at 211.582 389.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24883,7 +24909,7 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 207.01 383.794 0)
+			(at 211.582 386.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24892,7 +24918,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 214.9348 378.46 0)
+			(at 208.28 383.2352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,7 +24927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 382.27 0)
+			(at 212.09 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24910,7 +24936,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 382.27 0)
+			(at 212.09 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51285,6 +51311,73 @@
 			(project "logic-gate-calculator"
 				(path "/9b79f451-5707-4d18-970a-918096944587"
 					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 382.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7bffafa-342e-4c34-b0d9-9814ac44ea42")
+		(property "Reference" "#PWR0278"
+			(at 201.93 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 382.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de716d9-7cbb-4868-95b1-9c4bbf34711f")
+		)
+		(instances
+			(project "logic-gate-calculator"
+				(path "/9b79f451-5707-4d18-970a-918096944587"
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
