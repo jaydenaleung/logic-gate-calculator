@@ -8,7 +8,7 @@ A custom calculator on a printed circuit board (PCB), made entirely from logic g
 
 **Demo Link:** 
 
-**Hours Spent:** 
+**Hours Spent:** 20
 
 ## Overview
 
@@ -20,7 +20,7 @@ A custom calculator on a printed circuit board (PCB), made entirely from logic g
 
 ## Why I Did This Project
 
-This project began as an assignment for the prerequisite course to the **2026 MIT BeaverWorks Basics of ASICs** program. Since I did also that course the year before, I wanted to go further with the assignments. I took our material on logic gates to the max and decided to build a simple calculator from scratch, for which I did some extra research on adders/half-adders.
+This project began as an assignment for the prerequisite course to the **2026 MIT BeaverWorks Basics of ASICs** program. Since I did also that course the year before, I wanted to go further with the assignments. I took our material on logic gates to the max and decided to build a simple calculator from scratch, for which I did some extra research on adders/half-adders. This was just a fun little project! I really learned a lot about the fine complexities of computing.
 
 ## Background
 
