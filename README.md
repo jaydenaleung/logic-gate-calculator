@@ -4,17 +4,15 @@ Logic Gate Calculator
 A custom calculator on a printed circuit board (PCB), made entirely from logic gates. The calculator takes in any number of inputs from 0-9 and can output their sum (up to 9).
 -----
 
-**GitHub Link:** [https://github.com/jaydenaleung/logic-gate-calculator](github.com/jaydenaleung/logic-gate-calculator). Included: KiCad project file/gerbers, pictures of schematic and PCB layout/render, bill of materials, README, and .step CAD file.
-
-**Demo Link:** 
-
 **Hours Spent:** 20
 
 ## Overview
 
 *Logic Gate Calculator (LGC)* is a PCB that employs multiple buttons, each mapped to a digit 0-9, and sums them when pressed. This sum is shown by lighting up an LED mapped to a specific output 0-9. The PCB is powered by a 5-12V and a ground pin, regulated to 5V. I hand-soldered all the through-hole components myself!
 
-[PCB IRL picture]
+<img height="400" alt="Photo0_LogicGateCalculator" src="https://github.com/user-attachments/assets/8b3f4ab3-0060-4f46-b352-08db661ad8e6" />
+<img height="400" alt="Photo1_LogicGateCalculator" src="https://github.com/user-attachments/assets/eb01cab6-5b5d-45d2-bca3-928e6c044704" />
+
 
 ## Why I Did This Project
 
